@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mokm-app1": {
+    "mokm-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mokm-app1:build:production"
+              "buildTarget": "mokm-app:build:production"
             },
             "development": {
-              "buildTarget": "mokm-app1:build:development"
+              "buildTarget": "mokm-app:build:development"
             }
           },
           "defaultConfiguration": "development"
