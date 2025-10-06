@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "preview": "npx serve dist/mokm-app/browser",
+    "postbuild": "cp dist/mokm-app/browser/index.html dist/mokm-app/browser/404.html",
     "test": "ng test"
   },
   "prettier": {
